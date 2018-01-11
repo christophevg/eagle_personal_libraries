@@ -8,5 +8,6 @@ I try to keep track of all shoulders I stand on (besides the standard libraries 
 
 * raspberrypi_bastelstube_v13.lbr by eightbit from [https://cadsoft.io/resources/libraries/](https://cadsoft.io/resources/libraries/)
 * [https://github.com/sparkfun/SparkFun-Eagle-Libraries](https://github.com/sparkfun/SparkFun-Eagle-Libraries)
+* [Macro Yau's EAGLE Libraries](https://github.com/MacroYau/MacroYau-Eagle-Libraries)
 
 If you feel I've used your work and have not given you (enough) credit, please just let me know and we'll fix that right away ;-)
