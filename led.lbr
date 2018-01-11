@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.2">
+<eagle version="8.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -55,7 +56,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -985,6 +986,61 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <text x="1.73" y="-2.178" size="1.016" layer="21" font="vector">A</text>
 <text x="-2.938" y="-2.178" size="1.016" layer="21" font="vector">K</text>
 </package>
+<package name="5X7_DOT_LED_MATRIX">
+<wire x1="-6.35" y1="8.89" x2="6.35" y2="8.89" width="0.127" layer="21"/>
+<wire x1="6.35" y1="8.89" x2="6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-8.89" x2="-6.35" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-8.89" x2="-6.35" y2="8.89" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="0" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="0" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="2.54" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="5.08" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="7.62" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="7.62" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="7.62" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="7.62" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="7.62" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="5.08" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="5.08" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="5.08" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="5.08" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="2.54" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="2.54" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="2.54" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="2.54" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="0" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="0" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="-2.54" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="-2.54" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="-2.54" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="-2.54" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="-2.54" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="-5.08" radius="1" width="0.127" layer="21"/>
+<circle x="5.08" y="-7.62" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="-7.62" radius="1" width="0.127" layer="21"/>
+<circle x="2.54" y="-5.08" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="-5.08" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="-5.08" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="-5.08" radius="1" width="0.127" layer="21"/>
+<circle x="-5.08" y="-7.62" radius="1" width="0.127" layer="21"/>
+<circle x="-2.54" y="-7.62" radius="1" width="0.127" layer="21"/>
+<circle x="0" y="-7.62" radius="1" width="0.127" layer="21"/>
+<pad name="1" x="-3.81" y="6.35" drill="0.9"/>
+<pad name="2" x="-3.81" y="3.81" drill="0.9"/>
+<pad name="3" x="-3.81" y="1.27" drill="0.9"/>
+<pad name="4" x="-3.81" y="-1.27" drill="0.9"/>
+<pad name="5" x="-3.81" y="-3.81" drill="0.9"/>
+<pad name="6" x="-3.81" y="-6.35" drill="0.9"/>
+<pad name="7" x="3.81" y="-6.35" drill="0.9"/>
+<pad name="8" x="3.81" y="-3.81" drill="0.9"/>
+<pad name="9" x="3.81" y="-1.27" drill="0.9"/>
+<pad name="10" x="3.81" y="1.27" drill="0.9"/>
+<pad name="11" x="3.81" y="3.81" drill="0.9"/>
+<pad name="12" x="3.81" y="6.35" drill="0.9"/>
+<text x="0.38" y="-10.59" size="1.27" layer="49">&gt;NAME</text>
+<text x="-6.32" y="9.32" size="1.27" layer="21">5x7 DOT LED MATRIX</text>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -1011,6 +1067,27 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
+</symbol>
+<symbol name="7X5_DOT_LED_MATRIX">
+<wire x1="-12.7" y1="10.16" x2="-12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-10.16" x2="12.7" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="12.7" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<pin name="C1" x="-17.78" y="5.08" length="middle"/>
+<pin name="R3" x="17.78" y="2.54" length="middle" rot="R180"/>
+<pin name="C2" x="-17.78" y="2.54" length="middle"/>
+<pin name="R5" x="17.78" y="-2.54" length="middle" rot="R180"/>
+<pin name="R6" x="17.78" y="-5.08" length="middle" rot="R180"/>
+<pin name="R7" x="17.78" y="-7.62" length="middle" rot="R180"/>
+<pin name="C4" x="-17.78" y="-2.54" length="middle"/>
+<pin name="C5" x="-17.78" y="-5.08" length="middle"/>
+<pin name="R4" x="17.78" y="0" length="middle" rot="R180"/>
+<pin name="C3" x="-17.78" y="0" length="middle"/>
+<pin name="R1" x="17.78" y="7.62" length="middle" rot="R180"/>
+<pin name="R2" x="17.78" y="5.08" length="middle" rot="R180"/>
+<text x="-12.7" y="10.922" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="-12.7" size="1.778" layer="95">5x7 DOT LED MATRIX</text>
+<text x="4.064" y="10.922" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1353,6 +1430,32 @@ Source: http://www.osram.convergy.de/</description>
 <connects>
 <connect gate="G$1" pin="A" pad="A"/>
 <connect gate="G$1" pin="C" pad="K"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5X7_DOT_LED_MATRIX" uservalue="yes">
+<gates>
+<gate name="G$1" symbol="7X5_DOT_LED_MATRIX" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5X7_DOT_LED_MATRIX">
+<connects>
+<connect gate="G$1" pin="C1" pad="1"/>
+<connect gate="G$1" pin="C2" pad="3"/>
+<connect gate="G$1" pin="C3" pad="10"/>
+<connect gate="G$1" pin="C4" pad="7"/>
+<connect gate="G$1" pin="C5" pad="8"/>
+<connect gate="G$1" pin="R1" pad="11"/>
+<connect gate="G$1" pin="R2" pad="12"/>
+<connect gate="G$1" pin="R3" pad="2"/>
+<connect gate="G$1" pin="R4" pad="9"/>
+<connect gate="G$1" pin="R5" pad="4"/>
+<connect gate="G$1" pin="R6" pad="5"/>
+<connect gate="G$1" pin="R7" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
