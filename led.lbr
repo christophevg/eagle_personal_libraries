@@ -1038,8 +1038,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pad name="10" x="3.81" y="1.27" drill="0.9"/>
 <pad name="11" x="3.81" y="3.81" drill="0.9"/>
 <pad name="12" x="3.81" y="6.35" drill="0.9"/>
-<text x="0.38" y="-10.59" size="1.27" layer="49">&gt;NAME</text>
-<text x="-6.32" y="9.32" size="1.27" layer="21">5x7 DOT LED MATRIX</text>
+<text x="-5.97" y="-10.59" size="1.27" layer="49">&gt;VALUE</text>
+<text x="-6.32" y="9.32" size="1.27" layer="21">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1085,9 +1085,8 @@ Source: http://www.osram.convergy.de/ ... LO_LS_LY L89K.pdf</description>
 <pin name="C3" x="-17.78" y="0" length="middle"/>
 <pin name="R1" x="17.78" y="7.62" length="middle" rot="R180"/>
 <pin name="R2" x="17.78" y="5.08" length="middle" rot="R180"/>
-<text x="-12.7" y="10.922" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-12.7" y="-12.7" size="1.778" layer="95">5x7 DOT LED MATRIX</text>
-<text x="4.064" y="10.922" size="1.778" layer="94">&gt;NAME</text>
+<text x="-12.446" y="-12.7" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-12.7" y="11.176" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
